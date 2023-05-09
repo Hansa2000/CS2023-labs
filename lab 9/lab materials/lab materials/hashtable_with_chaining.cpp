@@ -62,7 +62,7 @@ struct HashTable{
         hash = hashfunc(user_name);
         empty = is_slot_empty(hash);
 	//add your code below
-        if(!empty) password[hash].print_list();
+        if(!empty) password[hash].search(user_name);
 	
 	
 	
